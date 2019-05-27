@@ -1,6 +1,6 @@
 # Minimalbel
 
-A very minimal setup for using babel in legacy projects.
+A very minimal setup for using babel in legacy projects. Before using this as-is, remove the files within `./src`, since they are just for show.
 
 To add a new file named `myFile.js` in which you can use babel, create it at `./src/myFile.js` and in your project include the file `./dist/myFile.js`.
 
