@@ -1,0 +1,20 @@
+{
+  "name": "minimalbel",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "author": {
+    "name": "Hannes Leutloff",
+    "email": "hannes.leutloff@yeldirium.de"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && babel src -d dist",
+    "watch": "npm run clean && babel src -d dist --watch"
+  }
+}
